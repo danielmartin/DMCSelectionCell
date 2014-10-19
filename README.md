@@ -1,5 +1,7 @@
 ## DMCSelectionCell
 
+[![Build Status](https://travis-ci.org/danielmartin/DMCSelectionCell.svg?branch=master)](https://travis-ci.org/danielmartin/DMCSelectionCell)
+
 DMCSelectionCell is a custom cell that shows a list of exclusive options in a graphical way. It is inspired by Apple's alert style screen for push notifications.
 
 ## Usage
