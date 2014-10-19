@@ -1,2 +1,6 @@
 language: objective-c
+before_install: 
+- brew update
+- brew unlink xctool
+- brew install xctool
 script: xctool -project DMCSelectionCellSample/DMCSelectionCellSample.xcodeproj -scheme DMCSelectionCellSample build test -sdk iphonesimulator
