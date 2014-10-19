@@ -1,3 +1,5 @@
 language: objective-c
-xcode_project: DMCSelectionCellSample/DMCSelectionCellSample.xcodeproj
-xcode_scheme: DMCSelectionCellSample
+before_install:
+    - brew update
+    - brew install xctool
+script: xctool -project DMCSelectionCellSample/DMCSelectionCellSample.xcodeproj -scheme DMCSelectionCellSample build test -sdk iphonesimulator
