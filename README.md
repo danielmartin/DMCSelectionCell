@@ -4,6 +4,10 @@
 
 DMCSelectionCell is a custom cell that shows a list of exclusive options in a graphical way. It is inspired by Apple's alert style screen for push notifications.
 
+## Screenshot
+
+![Example animation](https://github.com/danielmartin/DMCSelectionCell/raw/master/DMCSelectionCellSample/DMCSelectionCell.gif)
+
 ## Usage
 
 In your `viewDidLoad:` method, add the following code to configure the cell's data source and delegate, and perform a first refresh:
